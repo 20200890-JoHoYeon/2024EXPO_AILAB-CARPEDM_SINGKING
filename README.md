@@ -56,6 +56,7 @@ I was in charge of front-end and design work. <br />
 ## Footer :exclamation:
 
 <!-- Click [here](https://edumalaysia.kr/) to visit my project. -->
+![2024EXPO_CARPEDM_SINGKING_gif1](https://github.com/user-attachments/assets/9bd5e748-a7d9-463e-bc44-aad285e2212f)
 ![이미지](https://github.com/user-attachments/assets/302b98e7-0708-4c24-853f-a5ae1b3dc8a9)
 
 Finally, I will register a photo showing the progress of the project. Thank you for your review. 😘
