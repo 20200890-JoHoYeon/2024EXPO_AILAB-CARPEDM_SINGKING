@@ -1,4 +1,4 @@
-# 2024EXPO_CARPEDM_SINGKING
+# 2024EXPO_AILAB_SINGKING
 
 This is the entry for the 2024 EXPO CARPEDM Club's graduation work MYSING project.
 
