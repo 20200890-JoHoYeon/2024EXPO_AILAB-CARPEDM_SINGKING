@@ -1,6 +1,6 @@
-# 2024EXPO_AILAB_SINGKING
+# 2024EXPO_AILAB-CARPEDM_SINGKING
 
-This is the entry for the 2024 EXPO AILAB Club's graduation work MYSING project.
+This is the entry for the 2024 EXPO AILAB-CARPEDM Club's graduation work MYSING project.
 
 # development stack :question:
 
