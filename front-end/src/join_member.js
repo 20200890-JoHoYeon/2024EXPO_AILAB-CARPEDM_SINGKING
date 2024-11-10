@@ -29,24 +29,22 @@ function Join_member() {
 
     try {
       const response = await fetch("http://localhost:5000/register", {
-        // 서버 엔드포인트
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({ name, id, password, age, gender }), //서버로 전송되는 것
+        body: JSON.stringify({ name, id, password, age, gender }),
       });
 
       const data = await response.json();
+      console.log(data); // Log response for debugging
 
       if (data.status === "success") {
-        // 회원가입 성공 시 메시지 표시 후 로그인 페이지로 이동
         setSuccess(true);
         setTimeout(() => {
           navigate("/login_member");
         }, 2000); // 2초 후 이동
       } else {
-        // 회원가입 실패 시 오류 메시지 표시
         setError(data.message);
       }
     } catch (error) {
@@ -87,7 +85,7 @@ function Join_member() {
                 type="radio"
                 id="male"
                 name="gender"
-                value="male"
+                value="m"
                 className="gender-option"
                 checked={gender === "male"}
                 onChange={(e) => setGender(e.target.value)}
@@ -100,7 +98,7 @@ function Join_member() {
                 type="radio"
                 id="female"
                 name="gender"
-                value="female"
+                value="f"
                 className="gender-option"
                 checked={gender === "female"}
                 onChange={(e) => setGender(e.target.value)}

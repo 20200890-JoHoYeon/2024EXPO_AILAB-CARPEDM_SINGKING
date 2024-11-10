@@ -42,13 +42,15 @@ class Database:
     def db_register(self, user_id, user_name, user_age, user_gender, user_pw):
         try:
             SQL = '''INSERT INTO singking_db.user_info (user_id, user_name, user_age, user_gender, user_pw, user_membership)
-            VALUES (%s, %s, %s, %s,  %s, %s)'''
+            VALUES (%s, %s, %s, %s, %s, %s)'''
 
             self.cursor.execute(SQL, (user_id, user_name, user_age, user_gender, user_pw, 'X'))
-            self.conn.commit()
             return {'status': 'success'}
-        except:
-            return {'message': 'fail'}
+        except Exception as e:
+            print(f"Error during registration: {e}")
+            return {'message': 'fail', 'error': str(e)}
+
+
 
     def get_user_info(self, user_id):
         try:
