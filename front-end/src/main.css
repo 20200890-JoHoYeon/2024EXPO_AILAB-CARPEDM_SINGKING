@@ -1,0 +1,374 @@
+.singking_battle_title,
+.singking_grow_title,
+.singking_ability_title,
+.weekly_ranking_title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #737373;
+  /*color: #4A4A4A;*/
+  margin-left: 10px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.battle_component {
+  margin: 0 auto;
+  width: 500px;
+  height: 130px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease-in-out;
+}
+
+.mypage_component {
+  margin: 0 auto;
+  width: 500px;
+  height: 130px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.battle_component:hover {
+  transform: translateY(-5px);
+}
+
+.battle_text {
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.battle_text_1 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #525252;
+  margin-bottom: 10px;
+}
+
+.battle_text_2 {
+  font-size: 15px;
+  color: #868686;
+}
+
+.battle_component img {
+  width: 220px;
+  height: 90px;
+  margin-left: 68px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.grow_component {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.grow_component_1 {
+  width: 150px;
+  height: 240px; /* Total height of the container */
+  background-color: white;
+  border-radius: 12px;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: bold;
+  font-size: 17px;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+  padding-top: 20px;
+  position: relative; /* Set position to relative for graph bar positioning */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden; /* Ensure anything overflowing is hidden */
+}
+
+.grow_component_1:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.key_score,
+.beat_score,
+.pronun_score {
+  width: 100px;
+  height: 80px; /* Total height of the score container */
+  border-radius: 10px;
+  line-height: 80px; /* Center text vertically */
+  margin: 30px auto;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  box-shadow: inset 0px 4px 10px rgba(0, 0, 0, 0.1);
+  position: relative; /* Set position to relative for graph bar positioning */
+  overflow: hidden; /* Ensure anything overflowing is hidden */
+}
+
+.graph_area {
+  height: 120px;
+}
+
+.graph_bar {
+  position: absolute; /* Position absolutely */
+  bottom: 0; /* Align to the bottom of the container */
+  left: 0; /* Start from the left */
+  z-index: 1; /* Keep the graph bar behind the text */
+  width: 100%; /* Full width of the container */
+  background-color: rgba(255, 179, 193, 0.7); /* Example color */
+  height: 0; /* Start height from 0 for animation */
+  transition: height 0.5s ease-in-out; /* Smooth transition for height */
+}
+
+.graph_text {
+  position: absolute; /* Position absolutely */
+  bottom: 5px; /* Slightly above the bottom for better visibility */
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Center the text */
+  z-index: 2; /* Bring the text in front of the graph bar */
+  color: #727272; /* Text color */
+  font-weight: bold; /* Make the text bold */
+  font-size: 22px; /* Adjust font size if needed */
+}
+
+.grow_component_1:nth-child(1) .graph_bar {
+  background-color: rgba(255, 179, 193, 0.7); /* Pastel pink with slight transparency */
+}
+
+.grow_component_1:nth-child(2) .graph_bar {
+  background-color: rgba(197, 225, 165, 0.7); /* Pastel green with slight transparency */
+}
+
+.grow_component_1:nth-child(3) .graph_bar {
+  background-color: rgba(255, 229, 153, 0.7); /* Light yellow with slight transparency */
+}
+
+.grow_component_1 img {
+  width: 50px;
+  height: 50px;
+  margin-top: 10px;
+}
+
+.ability_component {
+  width: 500px;
+  height: 320px;
+  background-color: white;
+  margin: 0 auto;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.ability_title {
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  color: #525252;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-evenly;
+
+  align-items: center;
+  width: 100%;
+}
+
+.ability_title .first,
+.ability_title .last {
+  flex: 1; /* 같은 비율로 1씩 차지 */
+}
+
+.weekly_ranking_component {
+  width: 500px;
+  height: 500px;
+  background-color: white;
+  margin: 0 auto;
+  border-radius: 12px;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+/* .weekly_ranking_component div {
+  padding: 20px 20px;
+} */
+/* Progress comparison container */
+.progress-comparison {
+  display: flex;
+  justify-content: space-between;
+  align-items: top;
+  margin-bottom: 20px;
+  padding: 0px 20px;
+}
+
+/* 가운데 제목 스타일 */
+.progress-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #525252;
+  width: 80px;
+  text-align: center;
+}
+
+/* 좌우 퍼센트 바 스타일 */
+.progress-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 50px;
+}
+
+.progress-track {
+  width: 100%;
+  background-color: #e0e0e0;
+  height: 30px;
+  border-radius: 5px;
+  position: relative;
+  margin-bottom: 5px;
+}
+
+.progress-last-week {
+  height: 100%;
+  background-color: #b0c4de; /* 7일 전 기록의 색상 */
+  border-radius: 5px;
+  transition: width 0.3s ease-in-out;
+}
+
+.progress-latest {
+  height: 100%;
+  background-color: #4682b4; /* 최신 기록의 색상 */
+  border-radius: 5px;
+  transition: width 0.3s ease-in-out;
+}
+
+/*색상 정의 */
+.progress-comparison.pitch .progress-last-week {
+  background-color: #ffb3c1; /* 연한 핑크 (음정 7일 전 기록) */
+}
+
+.progress-comparison.pitch .progress-latest {
+  background-color: #a5d8ff; /* 연한 블루 (음정 최신 기록) */
+}
+
+.progress-comparison.rhythm .progress-last-week {
+  background-color: #ffd6a5; /* 연한 오렌지 (박자 7일 전 기록) */
+}
+
+.progress-comparison.rhythm .progress-latest {
+  background-color: #c5e1a5; /* 연한 그린 (박자 최신 기록) */
+}
+
+.progress-comparison.pronunciation .progress-last-week {
+  background-color: #ffe599; /* 연한 노랑 (발음 7일 전 기록) */
+}
+
+.progress-comparison.pronunciation .progress-latest {
+  background-color: #d7afff; /* 연한 라벤더 (발음 최신 기록) */
+}
+
+.progress-comparison.tempo .progress-last-week {
+  background-color: #a5d8ff; /* 연한 블루 (템포 7일 전 기록) */
+}
+
+.progress-comparison.tempo .progress-latest {
+  background-color: #ffb3c1; /* 연한 핑크 (템포 최신 기록) */
+}
+
+.progress-comparison.volume .progress-last-week {
+  background-color: #c5e1a5; /* 연한 그린 (볼륨 7일 전 기록) */
+}
+
+.progress-comparison.volume .progress-latest {
+  background-color: #ffd6a5; /* 연한 오렌지 (볼륨 최신 기록) */
+}
+
+span {
+  font-size: 14px;
+  color: #737373;
+}
+
+/* 좌우 레이아웃 정렬 */
+.last-week {
+  text-align: right;
+}
+
+.latest {
+  text-align: left;
+}
+
+/* 1등 항목에 대한 스타일 */
+/* .ranking_item:first-child {
+  font-size: 20px; 
+  padding: 15px;
+  height: 60px;
+} */
+
+.ranking_container {
+  width: 100%;
+}
+
+.ranking_item {
+  display: flex;
+  justify-content: center; /* 중앙 정렬 */
+  align-items: center; /* 수직 중앙 정렬 */
+  padding: 10px;
+  margin-bottom: 10px;
+  height: 40px;
+  gap: 20px; /* 항목 간의 간격 */
+  font-size: 20px;
+  padding: 15px;
+  height: 60px;
+}
+.ranking_item .rank {
+  font-weight: bold;
+  color: #525252;
+  font-size: 23px;
+  flex: 0 0 50px; /* 고정 너비 */
+  text-align: center; /* 중앙 정렬 */
+}
+
+.ranking_item .user_name {
+  font-size: 23px;
+  color: #333;
+  flex: 0.9; /* 가변 너비로 설정 */
+  overflow: hidden;
+  text-overflow: ellipsis; /* 글자가 너무 길면 ...으로 표시 */
+}
+
+.ranking_item .rank_score {
+  font-size: 25px;
+  color: #525252;
+  font-weight: bold;
+  flex: 0 0 60px; /* 고정 너비 */
+  text-align: center; /* 중앙 정렬 */
+}
+
+.mypage_user_icon {
+  width: 110px;
+  height: 118px;
+}
+
+.mypage_tone_logo {
+  border-radius: 20px;
+  padding: 8px 20px;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 600;
+  background-color: #525252;
+  color: #fff;
+}
+
+.mypage_tone_area {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px 0px 30px;
+  width: 100%;
+}

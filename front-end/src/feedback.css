@@ -1,0 +1,145 @@
+.feedback {
+  background-color: #eef2f2;
+  padding: 30px;
+  margin-bottom: 40px;
+}
+.header_section {
+  display: flex;
+  padding-right: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+.detail_label {
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: #4b8e96;
+  font-weight: bold;
+}
+.feedback_component {
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  width: 100%;
+  height: 150px;
+  margin: 20px 0px 30px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.feedback_chart_component {
+  height: 500px;
+  display: block;
+}
+
+.feedback_chart_title {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 10px;
+}
+
+.feedback_chart_toggle {
+  background-color: #525252; /* 기본 색상 */
+  border: none; /* 테두리 없앰 */
+  color: white; /* 텍스트 색상 */
+  padding: 10px 20px; /* 내부 여백 */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 135px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 20px; /* 동그란 버튼 */
+  transition: background-color 0.3s ease; /* 부드러운 색상 전환 */
+}
+
+.feedback_chart {
+  padding: 20px;
+  padding-left: 10px;
+  padding-bottom: 0px;
+  display: flex;
+  justify-content: center; /* 가로 가운데 정렬 */
+  align-items: center;
+}
+
+.feedback_song_info {
+  height: 170px;
+}
+
+.header_section {
+  display: flex;
+  align-items: center;
+}
+
+.detail_link {
+  margin-left: 30px;
+}
+
+.part_score {
+  margin-bottom: 20px;
+}
+
+.feedback_header {
+  font-size: 34px;
+  font-weight: bold;
+  color: #525252;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+
+.feedback_text {
+  color: #737373;
+  font-size: 20px;
+  margin-left: 30px;
+}
+
+.feedback_song_info_container {
+  background-color: #d9d9d9;
+  width: 200px;
+  height: 100px;
+  text-align: center;
+  border-radius: 15px;
+  margin-right: 30px;
+}
+
+.feedback_song_info_img {
+  width: 100px;
+  object-fit: cover;
+  height: 100px;
+}
+
+.wrong_part:hover {
+  transform: translateY(-10px);
+}
+
+/* feedback.css */
+
+/* Loading overlay styles */
+.loading-overlay {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 600px;
+  height: 100%; /* Height can be adjusted as needed */
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translate(-50%, -50%); /* Centers the overlay */
+  z-index: 1000; /* Ensure it stays on top */
+}
+
+.loading-message {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.75); /* Dark background for the message box */
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.chart_img {
+  margin-top: 60px;
+  margin-bottom: 95px;
+}

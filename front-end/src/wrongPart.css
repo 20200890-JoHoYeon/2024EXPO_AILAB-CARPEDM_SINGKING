@@ -1,0 +1,70 @@
+.wrong_part_container {
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  width: 550px;
+  padding: 10px 0px;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  margin: 18px 0;
+  align-items: center;
+  
+}
+
+.song_img img {
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.wrong_name {
+  font-size: 22px;
+  font-weight: bold;
+  color: #525252;
+}
+
+.wrong_artist {
+  font-size: 16px;
+  font-weight: bold;
+  color: #858585;
+  margin-top: 5px;
+}
+
+.wrong_segment {
+  font-size: 14px;
+  color: #a1a1a1;
+  margin-top: 5px;
+  margin-left: 40px;
+}
+
+.song_img {
+  margin-right: 10px; /* 기존 20px에서 10px으로 줄임 */
+}
+
+.wrong_details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.wrong_play_Btn {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.wrong_play_Btn img {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.wrong_play_img {
+  margin-right: 10px;
+}
+
+.wrong_pause_img {
+  margin-left: 10px;
+}

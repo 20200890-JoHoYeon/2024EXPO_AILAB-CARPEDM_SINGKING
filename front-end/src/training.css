@@ -1,0 +1,97 @@
+.drag_menu_component {
+  padding-top: 20px;
+  padding-bottom: 25px;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+  overflow-x: auto; /* 가로 스크롤 활성화 */
+  white-space: nowrap; /* 내부 요소들이 한 줄에 위치하도록 설정 */
+}
+.drag_menu_component_ai {
+  display: flex;
+  flex-direction: row;
+  overflow-x: hidden;
+}
+
+.drag_menu_component_1 {
+  width: 220px;
+  display: inline-flex; /* inline-flex로 변경하여 요소들이 한 줄에 나타나도록 설정 */
+  flex-direction: column;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  transition: transform 0.3s ease;
+  margin-right: 15px; /* 요소 간 간격 추가 */
+}
+
+.drag_menu_component_1:hover {
+  transform: translateY(-10px);
+}
+
+/* 자식 요소들에 이벤트가 발생하지 않도록 설정 */
+.drag_menu_component_1:hover .drag_menu_component {
+  pointer-events: none;
+}
+
+.drag_menu_component_1_long {
+  height: 300px;
+  padding: 20px 10px;
+}
+.drag_menu_component_1_mid {
+  height: 270px;
+}
+
+.drag_menu_component_1_short {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ai_diagnosis_img,
+.ai_training_img {
+  width: 100%;
+  height: 100%;
+}
+
+.ai_precise_img {
+  width: 50px;
+  height: 50px;
+}
+
+.ai_text {
+  padding: 5px;
+}
+
+.ai_text_1 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  font-size: 20px;
+  font-weight: bold;
+  color: #525252;
+}
+
+.training_ai_cover_component {
+  margin: 0px 10px;
+  margin-top: 25px;
+  height: 150px;
+  background-color: #ffffff;
+  text-align: center;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.ai_cover_img {
+  width: 80px;
+  height: 80px;
+  margin-top: 15px;
+}
+
+.training_ai_cover_component:hover {
+  transform: translateY(-10px);
+}

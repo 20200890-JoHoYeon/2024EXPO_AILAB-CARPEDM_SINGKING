@@ -1,0 +1,84 @@
+.tone_diagnostics {
+  padding-bottom: 50px;
+}
+.tone_diagnostics_text {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  color: #737373;
+}
+.tone_diagnostics_component {
+  padding: 10px 0px;
+  margin: 20px 40px 0px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  background-color: #ffffff;
+  text-align: center;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.tone_diagnostics_mid_component {
+  height: 400px;
+}
+
+.tone_diagnostics_result_component {
+  margin: 20px 15px 10px 15px;
+  width: 495px;
+
+  height: 300px;
+}
+
+.tone_margin {
+  margin: 20px 15px 40px 15px;
+}
+
+.tone_border {
+  border-radius: 20px;
+}
+
+.tone_diagnostics_lp_area {
+  margin-top: 20px;
+}
+
+.tone_diagnostics_lp {
+  width: 194px;
+  height: 194px;
+  position: absolute;
+  margin-top: 3px;
+}
+.tone_diagnostics_lp_animation {
+  animation: rotate_image 10s linear infinite;
+  transform-origin: 50% 50%;
+}
+
+@keyframes rotate_image {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.tone_diagnostics_player {
+  width: 250px;
+  height: 220px;
+}
+
+.training_ai_cover_component:hover,
+.tone_recording_button:hover {
+  transform: translateY(-10px);
+}
+
+.tone_diagnostics_result_img {
+  margin-top: 20px;
+  width: 180px;
+  height: 180px;
+}
+
+.tone_text_1 {
+  font-size: 35px;
+  margin-bottom: 10px;
+}

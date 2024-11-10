@@ -1,0 +1,49 @@
+.tone_adjuster {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  width: 300px;
+  height: 230px;
+  font-size: 22px;
+}
+
+.tone_Btn {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px #F0F0F0;
+}
+
+.addtoneBtn, .minustoneBtn {
+  width: 30px;
+  font-size: 40px;
+  cursor: pointer;
+  background-color: #F0F0F0;
+  padding: 0 10px;
+  padding-bottom: 5px;
+}
+
+.tone{
+  width: 60px;
+}
+
+.tone {
+  font-size: 36px;
+  margin: 0 10px;
+}
+
+.confirmBtn {
+  margin-bottom: 8px;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #F0F0F0;
+}

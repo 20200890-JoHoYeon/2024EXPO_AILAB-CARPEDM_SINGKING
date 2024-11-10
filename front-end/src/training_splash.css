@@ -1,0 +1,21 @@
+.splash_div {
+  position: fixed;
+  top: 0;
+  width: 600px;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 998;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.countdown {
+  font-size: 72px;
+  color: white;
+  font-weight: bold;
+}
+
+.splash_Footer{
+  z-index: 999;
+}
