@@ -46,6 +46,7 @@ localhost:3000/
 <br /><br />
 5. 씽킹 배틀 - 관리자가 매주 3개의 배틀 곡을 선정해 배틀 곡을 가창한 사용자들의 노래를 평가하여 순위를 매기고 각 배틀 곡에서 점수가 가장 높은 1등을 선정해 3명에게 상품을 제공한다. 이로 인한 사용자들 간의 경쟁 심리를 이용해 앱 사용도를 높일 수 있다. (미구현)
 -->
+
 ## Development Story :question:
 
 I participated in the expo with my club graduation work.
