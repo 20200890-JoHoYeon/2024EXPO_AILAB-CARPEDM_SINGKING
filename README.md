@@ -4,9 +4,10 @@ This is the entry for the 2024 EXPO AILAB-CARPEDM Club's graduation work MYSING 
 
 # development stack :question:
 
-Front-End: React <br />
-Back-End: Flask <br />
-Database: MySQL
+Front-End: JavaScript, React <br />
+Back-End: Python3, Flask <br />
+Database: MySQL <br />
+AI: Tensorflow
 
 # SINGKING Project Results :exclamation:
 
