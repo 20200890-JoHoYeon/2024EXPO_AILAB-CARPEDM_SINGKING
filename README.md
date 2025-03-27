@@ -159,8 +159,9 @@ localhost:3000/
   - 일부 녹음이 Python 파일 자체로 진행되었는데, 그대로 AWS EC2 서버에 업로드하니 녹음 장치를 찾을 수 없다는 오류가 발생했다.
   - 녹음과 관련된 부분은 전부 프론트엔드 처리하고 녹음 받은 mp3 파일만 서버로 전송히여 서버에서는 mp3 파일을 받아 사용하는 방식으로 변경해 해결되었다.
 </details>
+
 ## Development Story :question:
-📅 2024.07.03 ~ 2024.10.18
+
 I participated in the expo with my club graduation work.
 I was in charge of front-end and design work. <br />
 
