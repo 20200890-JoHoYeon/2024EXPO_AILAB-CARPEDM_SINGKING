@@ -1,0 +1,213 @@
+.immediate_feedback_final {
+  margin: 0;
+  padding: 0;
+  background-color: #edf2fb;
+  margin-bottom: 150px;
+}
+
+/* SCORE */
+#feedback_final_score {
+}
+
+#feedback_final_score .score_title {
+  padding: 20px 0;
+  margin-left: 140px;
+  font-size: 35px;
+  color: #686175;
+  font-weight: 700;
+}
+
+#feedback_final_score .score {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+#feedback_final_score .score_num {
+  width: 300px;
+  height: 80px;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0px 5px 6px 2px #cacaca;
+  text-align: center;
+  line-height: 80px;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+#feedback_final_score .score_txt {
+  margin-left: 10px;
+  font-size: 30px;
+  color: #686175;
+  font-weight: 700;
+}
+
+#feedback_final_score .score_rank {
+  position: relative;
+  bottom: 90px;
+  left: 368px;
+}
+
+#feedback_final_score .score_rank img {
+  width: 42px;
+}
+
+#feedback_final_score .score_rank .rank_num {
+  position: absolute;
+  top: 5px;
+  left: 6px;
+  text-align: center;
+  color: #fff;
+}
+
+#feedback_final_score .score_rank .rank_num .r_sub {
+  font-weight: 700;
+}
+
+/* FEEDBACK */
+#feedback_final_feedback {
+  padding: 20px 60px;
+  padding-bottom: 80px;
+  background-color: #9cb6e5;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+
+#feedback_final_feedback .feedback_title {
+  margin-bottom: 20px;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 40px;
+  color: #fff;
+}
+
+#feedback_final_feedback .feedback_list .feedback {
+  margin: 15px 0px;
+  display: flex;
+  align-items: center;
+  font-size: 23px;
+}
+
+#feedback_final_feedback .feedback_list .feedback .f_title {
+  margin-right: 10px;
+  font-weight: 700;
+  color: #535353;
+}
+
+#feedback_final_feedback .feedback_list .feedback .f_bar {
+  width: 420px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 3px 7px 3px #cacaca inset;
+}
+
+/* BEST PART */
+#feedback_final_best_part {
+  width: 480px;
+  padding: 20px 60px;
+  background-color: #eaf0fe;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  position: absolute;
+  top: 750px;
+}
+
+#feedback_final_best_part .best_part_title {
+  margin-bottom: 20px;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 40px;
+  color: #535353;
+}
+
+#feedback_final_best_part .best_part_list .best_part {
+  margin: 15px 0px;
+  display: flex;
+  align-items: center;
+  font-size: 23px;
+  float: right;
+}
+
+#feedback_final_best_part .best_part_list .best_part .b_title {
+  margin-right: 10px;
+  font-weight: 700;
+  color: #535353;
+}
+
+#feedback_final_best_part .best_part_list .best_part .b_bar {
+  width: 400px;
+  height: 50px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 3px 7px 3px #cacaca inset;
+}
+
+#feedback_final_best_part .best_part_list .best_part .b_bar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 5px;
+}
+
+/* 버튼 */
+.feedback_btn {
+  text-align: center;
+}
+
+.feedback_btn .f_btn_top .f_btn_1 {
+  margin: 25px 10px;
+  width: 200px;
+  height: 50px;
+  line-height: 50px;
+  display: inline-block;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  box-shadow: 0px 5px 6px 2px #cacaca;
+}
+
+.feedback_btn .f_btn_bottom a {
+  color: inherit;
+}
+
+.feedback_btn .f_btn_bottom .f_btn_2 {
+  width: 420px;
+  height: 50px;
+  line-height: 50px;
+  display: inline-block;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  box-shadow: 0px 5px 6px 2px #cacaca;
+}
+
+/* 퍼센트 바 */
+.bar_container {
+  margin: 10px 5px;
+  width: 97%;
+  background-color: #e0e0e0;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+.bar {
+  height: 30px;
+  background-color: #3b82f6;
+  transition: width 0.3s ease-in-out;
+}
+
+.bar_label {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-weight: bold;
+}

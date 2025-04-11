@@ -1,0 +1,161 @@
+.login_main {
+  padding-top: 50px;
+  text-align: center;
+  background: #778eb8;
+  height: 100vh;
+}
+
+.login_logo {
+  margin-bottom: 50px;
+  margin-top: 150px;
+}
+
+.login_logo_img {
+  width: 50%;
+}
+
+.login_area {
+  margin: 40px 60px;
+  text-align: center;
+  background: #fff;
+  font-weight: bold;
+  padding: 20px;
+  border-radius: 40px;
+  box-shadow: 2px 10px 8px rgba(0, 0, 0, 0.1);
+  height: 500px;
+}
+
+.login_user {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 60px;
+  margin: 10px auto;
+  font-size: 16px;
+  color: #333;
+  background-color: #fff;
+  box-shadow: 2px 2px 10px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s, border-color 0.3s;
+  margin-bottom: 30px;
+}
+.login_kakao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 60px;
+  margin: 10px auto;
+  font-size: 16px;
+  color: #000;
+  background-color: #ffd02c;
+  box-shadow: 2px 2px 10px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s, border-color 0.3s;
+  margin-bottom: 30px;
+}
+.login_google {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 60px;
+  margin: 10px auto;
+  font-size: 16px;
+  color: #333;
+  background-color: #fff;
+  box-shadow: 2px 2px 10px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s, border-color 0.3s;
+  margin-bottom: 30px;
+}
+.login_naver {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 60px;
+  margin: 10px auto;
+  font-size: 16px;
+  color: #fff;
+  background-color: #33c300;
+  box-shadow: 2px 2px 10px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s, border-color 0.3s;
+  margin-bottom: 30px;
+}
+.login_facebook {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 60px;
+  margin: 10px auto;
+  font-size: 16px;
+  color: #fff;
+  background-color: #2d81ff;
+  box-shadow: 2px 2px 10px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s, border-color 0.3s;
+  margin-bottom: 30px;
+}
+.login_user:hover {
+  background-color: #00000024;
+  border-color: #00000024;
+}
+.login_kakao:hover {
+  background-color: #ffd12c52;
+  border-color: #ffd12c52;
+}
+.login_google:hover {
+  background-color: #00000024;
+  border-color: #00000024;
+}
+.login_naver:hover {
+  background-color: #34c30051;
+  border-color: #34c30051;
+}
+.login_facebook:hover {
+  background-color: #2d81ff58;
+  border-color: #2d81ff58;
+}
+
+.login_icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.login_join_container {
+  justify-content: center;
+  font-size: 12px;
+  font-weight: lighter;
+  color: hsla(0, 0%, 0%, 0.612);
+  display: flex;
+}
+
+.login_join {
+  text-decoration: none;
+}
+.login_join:hover {
+  text-decoration: underline;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.login_version {
+  font-weight: 100;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+}

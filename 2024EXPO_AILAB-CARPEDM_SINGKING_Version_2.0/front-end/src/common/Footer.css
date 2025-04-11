@@ -1,0 +1,58 @@
+.footer {
+  margin: 0 auto;
+  width: 600px;
+  height: 70px;
+  background-color: #fff;
+  box-sizing: border-box;
+  align-items: center;
+  border-top: 2px solid rgba(0, 0, 0, 0.1);
+  border-bottom: none;
+
+  /* 푸터 고정 css */
+  display: flex;
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 550;
+}
+
+.footer div {
+  text-align: center;
+}
+
+.icon_area {
+  width: 150px;
+}
+
+.footer div .icon_img {
+  height: 33px;
+}
+
+.footer div .icon_name {
+  margin: 0;
+  font-size: 11px;
+}
+
+.footer .icon_line {
+  border: 1.5px solid;
+  height: 30px;
+  color: rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.icon_area.active .icon_img {
+  opacity: 1;
+}
+
+.icon_area.inactive .icon_img {
+  opacity: 0.5;
+}
+
+.icon_area.active .icon_name {
+  color: #000000;
+}
+
+.icon_area.inactive .icon_name {
+  color: #737373;
+}

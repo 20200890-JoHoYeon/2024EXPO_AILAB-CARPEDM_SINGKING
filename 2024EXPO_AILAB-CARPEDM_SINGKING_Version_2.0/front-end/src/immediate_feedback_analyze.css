@@ -1,0 +1,134 @@
+.immediate_feedback_analyze {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
+
+.song_container {
+  background-color: #eef2f2;
+  padding: 30px 30px;
+  padding-bottom: 90px;
+}
+
+.recording_status {
+  font-weight: bold;
+  font-size: 27px;
+  color: #737373;
+  margin-bottom: 30px;
+  margin-left: 40px;
+}
+
+.song_info_container {
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  width: 500px;
+  padding: 10px 0px;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.song_img img {
+  margin-right: 15px;
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.lyrics_header {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-bottom: 24px;
+}
+
+.lyrics_header img {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  margin-right: 110px;
+}
+
+.lyrics_header span {
+  display: inline-block;
+  font-size: 25px;
+  font-weight: bold;
+  color: #525252;
+}
+
+.song_name {
+  font-size: 30px;
+  font-weight: bold;
+  color: #525252;
+  margin-top: 15px;
+}
+
+.song_artist {
+  font-size: 15px;
+}
+
+.song_lyrics_container {
+  padding: 24px 16px 16px 16px;
+  width: 500px;
+  height: 450px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  background-color: white;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.lyrics_text {
+  max-height: 380px;
+  color: #737373;
+  font-size: 25px;
+  line-height: 180%;
+  overflow: auto;
+}
+
+.btn_container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.playbtn_container {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-right: 30px;
+  width: 230px;
+  height: 100px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.stopbtn_container {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 230px;
+  height: 100px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.btn_container img {
+  width: 40px;
+  height: 40px;
+  margin-top: 15px;
+  opacity: 0.7;
+}
+
+.btn_text {
+  color: #525252;
+  font-size: 17px;
+  margin-top: 5px;
+}
+
+.highlighted-lyric {
+  background-color: #f0f0f0; /* 하이라이팅된 가사의 배경 색상 */
+  color: #d9534f; /* 하이라이팅된 가사 색상 */
+  font-weight: bold; /* 하이라이팅된 가사는 굵게 표시 */
+}

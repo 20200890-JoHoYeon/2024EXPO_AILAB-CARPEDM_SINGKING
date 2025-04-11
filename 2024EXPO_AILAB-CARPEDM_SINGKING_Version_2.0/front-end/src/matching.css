@@ -1,0 +1,64 @@
+.header_bottom{
+    margin-bottom: 20px;
+}
+.matching_menu {
+    width: 500px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    display: flex;
+    margin-bottom: 20px;
+}
+.match_user_img{
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+}
+
+.match_bar{
+    margin: 0 10px;
+    width: 1px;
+    height: 100px;
+    background-color: #888;
+}
+.valade{
+    background-color: #444;
+    width: 80px;
+    height: 25px;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: white !important;
+    border-radius: 20px;
+}
+.main_matching{
+    margin-top: 10px !important;
+}
+.match_right_side{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.match_content_menu{
+    padding: 10px;
+}
+.match_content_name{
+    padding: 10px 0 5px 2px;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 5px;
+}
+.match_content_comment{
+    color: #888;
+}
+.match_plus{
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.match_plus:hover{
+    cursor: pointer;
+}

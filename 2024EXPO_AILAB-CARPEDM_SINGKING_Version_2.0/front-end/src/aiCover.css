@@ -1,0 +1,29 @@
+.ai_message {
+  border-radius: 20px;
+  margin-bottom: 20px;
+  padding-top: 30px;
+  margin-top: 15px;
+}
+.drag_menu_component_1 {
+  position: relative; /* Make sure the overlay is positioned correctly */
+}
+
+.overlay {
+  position: absolute;
+  border-radius: 10px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); /* Black background with 70% transparency */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1; /* Ensure the overlay is above the content */
+}
+
+.overlay_text {
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+}

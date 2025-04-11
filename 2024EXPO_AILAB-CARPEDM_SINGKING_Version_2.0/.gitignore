@@ -1,0 +1,10 @@
+# 아래 폴더 무시 (하위 폴더 무시)
+models/
+assets/
+__pycache__
+
+# 아래 확장자는 전체 무시
+*.h5
+*.wav
+*.webm
+*.pyc

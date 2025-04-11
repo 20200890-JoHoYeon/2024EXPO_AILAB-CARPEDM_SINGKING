@@ -1,0 +1,184 @@
+.octave_label {
+  margin: 20px 50px 0;
+  font-size: 25px;
+  font-weight: 700;
+  color: #727272;
+}
+
+.piano_set {
+  display: flex;
+  align-items: center;
+}
+
+.piano_set .piano_octave_arrow {
+  cursor: pointer;
+}
+
+.piano_set .piano_octave_arrow img {
+  width: 20px;
+}
+
+.piano {
+  display: flex;
+  position: relative;
+  margin: 0 auto;
+  padding-top: 20px;
+  width: 420px;
+
+  /* 전체 피아노의 너비 */
+  height: 200px;
+  /* 전체 피아노의 높이 */
+}
+
+.white-key {
+  width: 60px;
+  height: 200px;
+  background-color: white;
+  border: 0px solid #a3a3a3;
+  position: relative;
+  z-index: 1;
+  border-radius: 10px;
+  /* 키 사이의 경계선 */
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.3);
+  /* 약간의 그림자 */
+}
+
+.black-key {
+  border-bottom-left-radius: 5px; /* Bottom-left corner */
+  border-bottom-right-radius: 5px; /* Bottom-right corner */
+  width: 40px;
+  height: 130px;
+
+  background-color: black;
+  position: absolute;
+  z-index: 10;
+  box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.3);
+  /* 약간의 그림자 */
+}
+
+.black-key:hover {
+  z-index: 5;
+  background-color: #353535;
+  /* 호버할 때 노란색으로 변경 */
+
+  cursor: pointer;
+}
+
+.white-key:hover {
+  z-index: 5;
+  background-color: #e4e4e4;
+  box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.3);
+
+  /* 호버할 때 노란색으로 변경 */
+
+  cursor: pointer;
+}
+
+.key_active {
+  background-color: #e4e4e4;
+  /* 눌린 키의 색상 */
+}
+
+/* 검은 건반의 위치 조정 (C4~B4 사이의 건반 배치) */
+.key-C_-sharp {
+  left: 40px;
+  /* C4 위의 C# 건반 위치 */
+}
+
+.key-D_-sharp {
+  left: 100px;
+  /* D4 위의 D# 건반 위치 */
+}
+
+.key-F_-sharp {
+  left: 220px;
+  /* F4 위의 F# 건반 위치 */
+}
+
+.key-G_-sharp {
+  left: 280px;
+  /* G4 위의 G# 건반 위치 */
+}
+
+.key-A_-sharp {
+  left: 340px;
+  /* A4 위의 A# 건반 위치 */
+}
+
+.scale_analyze_btn {
+  margin: 10px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sa_btn {
+  background-color: #fff;
+  margin: 10px;
+  font-size: 20px;
+  line-height: 50px;
+  text-align: center;
+  width: 150px;
+  height: 50px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.sa_playing_btn {
+  height: 72px;
+  width: 180px;
+  line-height: 0;
+  padding: 13px 0;
+  cursor: pointer;
+}
+.sa_playing_btn p {
+  color: #525252;
+  font-size: 17px;
+}
+.sa_playing_btn img {
+  width: 40px;
+  height: 40px;
+
+  opacity: 0.7;
+}
+
+.scale_analyze_textarea {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.scale_analyze_textarea div {
+  width: 480px;
+  height: 240px;
+  cursor: default;
+  background-color: #ffffff;
+  text-align: center;
+  border-radius: 15px;
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.scale_analyze_text_1 {
+  padding: 50px 80px;
+  font-size: 21px;
+  font-weight: bold;
+  color: #525252;
+  margin-bottom: 10px;
+  white-space: pre-line;
+}
+.octave_area {
+  margin-bottom: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.octave_title {
+  border-radius: 15px;
+  padding: 8px 20px;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 600;
+  height: 30px;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+  color: #525252;
+}
